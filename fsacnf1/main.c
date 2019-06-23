@@ -45,7 +45,7 @@ fscanf(f,"%s%s%d%d",list[i].autor,list[i].genero,&list[i].votosp,&list[i].votosn
     break;
     case 2:sacarcanciones(list);
     break;
-    default:printf("Abutarda......SALIENDOOOOOOOOOOOOOO\n");
+    default:printf("Saliendo\n");
 }
 }
 while(elegir!=0);
